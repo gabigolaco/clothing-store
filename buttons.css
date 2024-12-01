@@ -1,0 +1,16 @@
+#burgerMenu {
+    background-color: transparent;
+    color: var(--white);
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+#cartButton {
+    background-color: transparent;
+    color: var(--white);
+    font-size: 2rem;
+    border: 0;    
+    cursor: pointer;
+}

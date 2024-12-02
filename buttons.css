@@ -14,3 +14,19 @@
     border: 0;    
     cursor: pointer;
 }
+
+#profileButton {
+    display: none;
+    border: 0;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+#notificationButton {
+    display: none;
+    border: 0;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 2rem;
+}

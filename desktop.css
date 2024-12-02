@@ -1,0 +1,97 @@
+#logo {
+    width: 235px;
+    height: 47px;
+}
+
+#burgerMenu {
+    display: none;
+}
+
+#menu {
+justify-content: space-between;  
+  }
+  
+#menu2 > ul {
+    font-size: 1.5em;
+}
+
+#profileButton {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#notificationButton {
+    display: inline-block;
+    cursor: pointer;
+}
+
+#menu > ul {
+    display: flex;
+    gap: 2em;
+}
+
+#search-bar-container {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    position: relative;
+    }
+
+#search-bar-container2 {
+        display: none;
+}
+        
+#search-bar {
+display: flex;
+}
+
+#s2 {
+    display: none;
+    position: none;
+    right: 5%;
+    top: 25%;
+    cursor: pointer;
+}
+
+#s {
+    display: flex;
+    position: absolute;
+    right: 3em;
+    top: 1em;
+}
+
+#products-container {
+    margin: 4em 0 4em 0;
+        height: 25em;
+    gap: 7em 5em;
+}
+
+.item {
+    width: 20%;
+    height: 90%;
+}
+
+.item::before {
+    content: attr(data-price);
+    display: block;
+    font-size: 2em;
+    color: var(--black);
+    position: absolute;
+    bottom: -1.4em;
+  }
+
+
+  
+.item::after {
+    content: attr(data-stars);
+    display: block;
+    font-size: 2em;
+    color: var(--black);
+    position: absolute;
+    bottom: -1.4em;
+    padding-left: 60%;
+  }
+  
+footer {
+    margin-top: 30em;
+}

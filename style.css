@@ -27,6 +27,7 @@ html, body {
     --black: #141414;
     --white: #FCFCFC;
     --grey: #797270;
+    --lightGrey: #FAFAFA;
 }
 
 header {
@@ -55,7 +56,7 @@ header {
     padding-right: 0.5em;
 }
 
-#search-bar-container {
+#search-bar-container2 {
     width: 90%;
     height: 30%;
     display: flex;
@@ -63,6 +64,16 @@ header {
 }
 
 #search-bar {
+    display: none;
+    background-color: var(--white);
+    width: 95%;
+    height: 85%;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+#search-bar2 {
+    display: flex;
     background-color: var(--white);
     width: 95%;
     height: 85%;
@@ -71,6 +82,14 @@ header {
 }
 
 #s {
+    display: none;
+    position: absolute;
+    right: 1.2em;
+    top: 0.8em;
+}
+
+
+#s2 {
     position: absolute;
     right: 5%;
     top: 25%;
@@ -140,3 +159,36 @@ a {
     padding-left: 4em;
   }
 
+footer {
+    background-color: var(--lightGrey);
+    padding-left: 1em;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: top;
+    padding-top: 1em;
+}
+
+footer > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+footer {
+    position: relative;
+}
+
+footer h4 {
+    cursor: pointer;
+}
+
+footer > ul > li > h4 > a::after {
+ content: "\f061";
+ font-family: "Font Awesome 6 Free";
+ color: var(--grey);
+ position: absolute;
+ right: 2em;
+}

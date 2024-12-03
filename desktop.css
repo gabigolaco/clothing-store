@@ -60,15 +60,15 @@ display: flex;
     top: 1em;
 }
 
-#products-container {
+.products-container {
     margin: 4em 0 4em 0;
-        height: 25em;
+    height: 25em;
     gap: 7em 5em;
 }
 
 .item {
     width: 20%;
-    height: 90%;
+    height: 80%;
 }
 
 .item::before {

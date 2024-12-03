@@ -7,7 +7,9 @@
   justify-content: space-around;  
 }
 
-
+#banner1 {
+    height: 260px;
+}
 
 #burgerMenu {
     display: none;
@@ -60,16 +62,38 @@ display: none;
     top: 0.8em;
 }
 
-#products-container {
+.products-container {
     margin: 4em 0 4em 0;
     height: 13%;
     gap: 5em 2em;
     background-color: grey;
 }
 
+.products-container2 {
+    width: 100%;
+    height: 6.5em;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    gap: 5em 2em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    padding: 0 0 30px 0;    
+}
+
+.products-container2 > .item {
+    width: 121px;
+    height: 134px;
+}
+
+.products-container2 > .item::after {
+    padding-left: 4em;
+}
+
+
 .item {
-    width: 30%;
-    height: 12.25em;
+    width: 145px;
+    height: 196px;
 }
 
 .item::before {
@@ -90,7 +114,7 @@ display: none;
     color: var(--black);
     position: absolute;
     bottom: -1.4em;
-    padding-left: 11em;
+    padding-left: 5em;
   }
   
 footer {

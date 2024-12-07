@@ -2,7 +2,7 @@
     background-color: transparent;
     color: var(--white);
     border: 0;
-    font-size: 2rem;
+    font-size: 1.3rem;
     cursor: pointer;
 
 }
@@ -10,7 +10,7 @@
 #cartButton {
     background-color: transparent;
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 0;    
     cursor: pointer;
 }
@@ -20,7 +20,7 @@
     border: 0;
     background-color: transparent;
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 #notificationButton {
@@ -28,5 +28,5 @@
     border: 0;
     background-color: transparent;
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1.3rem;
 }

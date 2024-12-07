@@ -33,7 +33,7 @@ html, body {
 header {
     background-color: var(--black);
     width: 100%;
-    height: 10em;
+    height: 8em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,10 +50,12 @@ header {
     gap: 5%;
 }
 
+
+
 #logo {
     width: 190px;
     height: 50px;
-    padding-right: 0.5em;
+    padding-left: 1em;
 }
 
 #search-bar-container2 {
@@ -99,6 +101,11 @@ header {
 #menu2 {
     width: 100%;
     height: 7%;
+
+}
+
+#home {
+    display: none;
 }
 
 #menu2 > ul {
@@ -111,7 +118,7 @@ header {
     gap: 1em;
     font-size: 1.17rem;
     font-family: 'Montserrat', 'Arial', 'sans-serif';
-    font-weight: 550;
+    font-weight: 450;
 }
 
 a {
@@ -208,4 +215,19 @@ footer > ul > li > h4 > a::after {
  color: var(--grey);
  position: absolute;
  right: 2em;
+}
+
+
+#banner1 {
+    width: 100%;
+    height: 30%;
+    background-color: red;
+}
+
+#banner2 {
+    width: 90%;
+    height: 10%;
+    background-color: yellow;
+    margin-top: 3em;
+    margin-left: 1em;
 }

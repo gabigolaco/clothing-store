@@ -1,32 +1,30 @@
 #burgerMenu {
     background-color: transparent;
-    color: var(--white);
+    color: var(--grey);
     border: 0;
     font-size: 1.3rem;
     cursor: pointer;
 
 }
 
-#cartButton {
-    background-color: transparent;
-    color: var(--white);
-    font-size: 1.5rem;
-    border: 0;    
+#cart-button {
+    position: relative;
     cursor: pointer;
 }
 
-#profileButton {
-    display: none;
-    border: 0;
-    background-color: transparent;
-    color: var(--white);
-    font-size: 1.3rem;
+#cart-button:after {
+    content: attr(data-price);
+    font-size: 0.7em;
+    position: absolute;
+    top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0.2em;
 }
 
-#notificationButton {
-    display: none;
-    border: 0;
-    background-color: transparent;
-    color: var(--white);
-    font-size: 1.3rem;
+#search-button {
+    cursor: pointer;
+}
+
+#heart-button  {
+    cursor: pointer;
 }

@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 
@@ -26,7 +27,7 @@ html, body {
 :root {
     --black: #141414;
     --white: #FCFCFC;
-    --grey: #797270;
+    --grey: #d8d8d8;
     --lightGrey: #FAFAFA;
 }
 
@@ -158,18 +159,18 @@ a {
 .item {
     width: 30%;
     height: 100%;
-    border: 1px solid black;
+    background-color: var(--grey);
     position: relative;
 }
 
-.item::before {
+/* .item::before {
     content: attr(data-price);
     display: block;
     font-size: 0.9em;
     color: var(--black);
     position: absolute;
     bottom: -1.4em;
-  }
+  } */
 
 
   

@@ -1,0 +1,13 @@
+#grid-products-container {
+    height: 40%;
+    grid-template-columns: 1000px 250px 250px;
+}
+
+#banner1 {
+    height: 50%;
+}
+
+.item {
+    width: 20%;
+    height: 100%;
+}

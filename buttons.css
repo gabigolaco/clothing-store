@@ -21,10 +21,26 @@
     margin-left: 0.2em;
 }
 
-#search-button {
+#searchButton {
     cursor: pointer;
+    border: 0;
+    background-color: transparent;
 }
 
-#heart-button  {
+#profileButton {
     cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+#favoriteButton {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+}
+
+#cartButton {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
 }

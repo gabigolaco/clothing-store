@@ -1,3 +1,7 @@
+.material-symbols-outlined {
+    display: flex;
+}
+
 #logo {
     width: 235px;
     height: 47px;
@@ -98,29 +102,31 @@ display: flex;
 #grid-products-container {
     width: 100%;
     height: 60%;
-    margin-top: 1em;
+    margin-top: 5%;
     display: grid;
-    justify-self: center;
-    gap: 1em;
-    grid-template-columns: 650px 250px 250px;
-    grid-template-rows: 200px;
+    justify-content: center;
     justify-items: center;
+    gap: 1.2em;
+    grid-template-columns: 30% 20% 20%;
+    grid-template-rows: 200px;
 }
 
 .smallitem {
     grid-column: span 0;
-    max-width: 250px;
+    max-width: 100%;
     max-height: 235px;
     grid-row: span 2;
 }
 
 .mediumitem {
     grid-column: span 2;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .largeitem {
     grid-row: span 3;
-    max-width: 400px;
+    max-width: 100%;
     max-height: 450px;
 }
 
@@ -136,9 +142,11 @@ display: flex;
 }
 
 .products-container {   
+    width: 100%;
     height: 70%;
     gap: 7em 5em;
     align-items: center;
+    background-color: blue;
 }
 
 .item {
@@ -148,14 +156,14 @@ display: flex;
 
 .products-container2 {
     width: 100%;
-    height: 14em;
+    height: 30%;
     display: flex;
     justify-content: center;
     padding-top: 1em;
-    gap: 5em 2em;
+    gap: 2%;
     flex-wrap: wrap;
     margin-top: 1em;
-    padding: 0 0 30px 0;    
+    padding: 0 0 2% 0;    
 }
 
 .products-container2 > .item {
@@ -172,17 +180,6 @@ display: flex;
     bottom: -1.4em;
   } */
 
-
-  
-.item::after {
-    content: attr(data-stars);
-    display: block;
-    font-size: 1.5em;
-    color: var(--black);
-    position: absolute;
-    bottom: -1.4em;
-    padding-left: 60%;
-  }
   
 footer {
     margin-top: 30em;

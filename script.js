@@ -81,7 +81,20 @@ let width = window.innerWidth;
         }
     
 
+function removeGrid()  {
+
+    if (window.innerHeight < 330) {
+        let gridContainer = document.getElementsByClassName('grid-container')[0];
+        gridContainer.style.display = 'none';
+    } else {
+        let gridContainer = document.getElementsByClassName('grid-container')[0];
+        gridContainer.style.display = 'flex';
+    }
+}
+
+
+window.addEventListener('resize', removeGrid)
+window.addEventListener('load', removeGrid)
 window.addEventListener('resize', checkBox);
 window.addEventListener('load', debugImage);
-window.addEventListener('load', loadStars)
 

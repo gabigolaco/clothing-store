@@ -6,7 +6,7 @@ function debugImage() {
         logo.src = 'images/logoPhone.png';
     break;
     case window.innerWidth >= 700 && window.innerWidth < 1039:
-        logo.src = 'images/logoTablet.png';
+        logo.src = 'images/logoPhone.png';
         loadItensTablet()
     break;
     case window.innerWidth >= 1040 && window.innerWidth < 2048:

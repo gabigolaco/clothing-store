@@ -97,8 +97,8 @@ gap: 1em;
 }
 
 .grid-container {
-width: 90%;
-height: 30vh;
+width: 100%;
+height: 27vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -108,11 +108,10 @@ background-color: crimson;
 
 .grid-products-container {
 width: 100%;
-min-height: 70%;
-max-height: 80%;
+min-height: 83%;
 background-color: chocolate;
 display: grid;
-grid-template-columns: 40% 20% 20%;
+grid-template-columns: 45% 20% 20%;
 gap: 1em;
 justify-content: center;
 }
@@ -120,28 +119,92 @@ justify-content: center;
 .smallitem {
 background-color: darkred;
 max-width: 90%;
-max-height: 70%;
+max-height: 80%;
 }
 
 .smallitem2 {
 background-color: rgb(243, 0, 0);
 max-width: 90%;
-max-height: 70%;
+max-height: 80%;
 }
 
 .mediumitem {
 background-color: cornflowerblue;
 grid-column: span 2;
 max-width: 95%;
-max-height: 70%;
+max-height: 95%;
 }
 
 .largeitem {
 background-color: darkkhaki;
 grid-row: span 2;
-max-width: 90%;
-max-height: 85%;
+max-width: 100%;
+max-height: 90%;
 }
+
+footer {
+    margin-top: 5%;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: start;
+    padding-left: 1em;
+    list-style-type: none;
+    position: relative;
+    font-family: 'Montserrat';
+}
+
+
+footer > ul > li::after {
+    content: '\f061';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    right: 0;
+    color: var(--black);
+}
+
+@media (max-height: 320px) {
+    .products-container {
+        background-color: purple;
+        height: 100vh;
+    }
+}
+
+@media (max-height: 450px) {
+    header {
+        height: 30vh;
+    }
+
+    .banner1 {
+        height: 40vh;
+    }
+
+    .banner2-container {
+        height: 30vh;
+    }
+
+    .products-container {
+        background-color: blue;
+        height: 70vh;
+    }
+
+}
+
+@media (max-height: 600px) {
+    .grid-container {
+        height: 42vh;
+    }
+
+    .banner1 {
+        height: 30vh;
+    }
+
+
+}
+
 
 @media (orientation: landscape) {
 

@@ -83,7 +83,7 @@ let width = window.innerWidth;
 
 function removeGrid()  {
 
-    if (window.innerHeight < 330) {
+    if (window.innerHeight < 250) {
         let gridContainer = document.getElementsByClassName('grid-container')[0];
         gridContainer.style.display = 'none';
     } else {

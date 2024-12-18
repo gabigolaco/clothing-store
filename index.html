@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="banners.css">
     <link rel="stylesheet" href="style.css" media="(min-width: 300px) and (max-width: 766px)">
     <link rel="stylesheet" href="tablet.css" media="(min-width: 767px) and (max-width: 1039px)">
-    <link rel="stylesheet" href="desktop.css" media="(max-width: 1920px)">
+    <link rel="stylesheet" href="desktop.css" media="(min-width: 1040px) and (max-width: 1367px)">
 
     </head>
 <body>
@@ -22,14 +22,21 @@
 <header>
     <nav id="menu">
         <img src="" alt="" id="logo">
+
+        <nav id='search-bar-container'>
+            <input type="text" name="" 
+            id="search-bar" placeholder="Search Something">
+            <i id='s'class="bi bi-search"></i>
+        </nav>
         
         <ul id="buttons-container"> 
-            <button id="profileButton" class="material-symbols-outlined">search</button>
-            <button id="favoriteButton" class="material-symbols-outlined">shopping_bag</button>
-            <button id="cartButton" class="material-symbols-outlined">person</button>
+            <button id="searchButton" class="material-symbols-outlined">search</button>
+            <button id="favoriteButton" class="material-symbols-outlined">favorite</button>
+            <button id="cartButton" class="material-symbols-outlined">shopping_bag</button>
+            <button id="profileButton" class="material-symbols-outlined">person</button>
         </ul>
     </nav>
-    
+ 
 </header>
 
 <nav id="menu2">

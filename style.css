@@ -37,7 +37,6 @@ header {
     width: 100%;
     height: 10vh;
     display: flex;
-    background-color: red;
     align-items: center;
     justify-content: center;
 }
@@ -48,7 +47,6 @@ height: 60%;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: green;
 }
 
 #menu2 {
@@ -57,7 +55,6 @@ background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: purple;
 }
 
 #menu2 > ul {
@@ -168,7 +165,6 @@ footer > ul > li::after {
 
 @media (max-height: 320px) {
     .products-container {
-        background-color: purple;
         height: 100vh;
     }
 }
@@ -177,6 +173,14 @@ footer > ul > li::after {
     header {
         height: 30vh;
     }
+
+#menu {
+    gap: 4em;
+}
+
+#buttons-container {
+    gap: 1.3em;
+}
 
     .banner1 {
         height: 40vh;
@@ -187,9 +191,9 @@ footer > ul > li::after {
     }
 
     .products-container {
-        background-color: blue;
         height: 70vh;
     }
+
 
 }
 
@@ -214,7 +218,7 @@ footer > ul > li::after {
         }
     
     .banner1 {
-        height: 30vh;
+        height: 70vh;
         
     }
 }

@@ -65,7 +65,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 1em auto;
     background-color: crimson;
     }
     
@@ -121,6 +121,51 @@ height: 80%;
     height: 80%;
     background-color: red;
 }
+
+@media (max-height: 450px) {
+    header {
+        height: 30vh;
+    }
+
+#menu {
+    gap: 4em;
+}
+
+#buttons-container {
+    gap: 1.3em;
+}
+
+    .banner1 {
+        height: 40vh;
+    }
+
+    .banner2-container {
+        height: 30vh;
+    }
+
+    .products-container {
+        height: 70vh;
+    }
+
+
+}
+
+@media (min-width: 600px) {
+    header {
+        background-color: purple;
+        height: 15vh;
+    }
+
+    .banner1 {
+        min-height: 40vh;
+    }
+
+    .banner2-container {
+        height: 25vh;
+    }
+
+}
+
 
 @media (min-height: 1200px) {
     

@@ -2,7 +2,7 @@ function debugImage() {
     let logo = document.getElementById('logo'); 
     
     switch (true) {
-        case window.innerWidth >= 300 && window.innerWidth < 700:
+        case window.innerWidth >= 100 && window.innerWidth < 700:
         logo.src = 'images/logoPhone.png';
     break;
     case window.innerWidth >= 700 && window.innerWidth < 1039:
